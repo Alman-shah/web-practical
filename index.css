@@ -1,0 +1,122 @@
+/* Basic CSS */
+
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+background-color: #222;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+/* Logo */
+.logo {
+font-size: 30px;
+color: orange;
+margin-bottom: 20px;
+}
+
+/* Navigation */
+nav {
+margin-bottom: 20px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 10px;
+font-size: 16px;
+}
+
+nav a:hover {
+color: orange;
+}
+
+/* Search Bar */
+.search input {
+padding: 10px;
+width: 220px;
+border: none;
+border-radius: 5px;
+}
+
+.search button {
+padding: 10px 15px;
+background-color: orange;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+/* Main Section */
+section {
+padding: 40px 20px;
+text-align: center;
+}
+
+section h1 {
+color: #222;
+margin-bottom: 30px;
+}
+
+/* Cards */
+.card {
+display: inline-block;
+vertical-align: top;
+width: 280px;
+background-color: white;
+padding: 20px;
+margin: 10px;
+border-radius: 10px;
+box-shadow: 0 2px 8px #ccc;
+}
+
+/* Circular Images */
+.card img {
+width: 100px;
+height: 100px;
+border-radius: 100px;
+object-fit: cover;
+}
+
+.card h2 {
+color: #333;
+}
+
+.card p {
+color: #666;
+line-height: 1.6;
+}
+
+/* Footer */
+footer {
+background-color: #222;
+color: white;
+text-align: center;
+padding: 20px;
+margin-top: 30px;
+}
+
+/* Simple Responsive CSS */
+@media (max-width: 600px) {
+nav a {
+display: inline-block;
+margin: 8px;
+}
+
+.card {
+    width: 90%;
+}
+
+.search input {
+    width: 65%;
+}
+
+
+}

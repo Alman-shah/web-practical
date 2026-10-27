@@ -1,0 +1,48 @@
+/* General Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header - Box Model use */
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;        /* Padding andar se space deta hai */
+    margin: 0;            /* Margin bahar se space deta hai */
+    border-bottom: 3px solid #ff9900; /* Border */
+}
+
+/* Sections - Har section ek box */
+.section {
+    background-color: white;
+    margin: 20px;         /* Bahar se space */
+    padding: 15px;        /* Andar se space */
+    border: 2px solid #ccc; /* Border */
+}
+
+/* Headings inside section */
+.section h2 {
+    margin-top: 0;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* List styling */
+ul {
+    padding-left: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 3px solid #ff9900;
+}
